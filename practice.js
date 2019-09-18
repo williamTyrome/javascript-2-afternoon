@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me = {
+  name: 'william',
+  age: 21
+}
+me.name
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,21 +28,19 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: "ACDC",
+  food: "burgers",
+  person: "me",
+  book: "the lord of the rings",
+  movie: "john wick",
+  holiday: "Halloween"
+}
+favoriteThings.car = 'chevele'
+favoriteThings.brand = "DC"
 
-/*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
-  and then another key named 'brand' with the value being your favorite brand.
-*/
-
-//Code here
-
-/*
-  Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
-  and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-*/
-
-//Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,12 +52,14 @@
 */
 
 //Code here
+var backPack = { };
 
-/*
-  After you do the above, alert your entire backPack object.
-*/
+ var item = 'firstPocket'
 
-//Code here
+ backPack[item] = 'chapstick';
+ backPack.color = 'black';
+
+ alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -83,7 +87,8 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 //Code Here
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
@@ -96,7 +101,7 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection = {}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
@@ -116,7 +121,11 @@ var user2 = {
   Create a function called makePerson which takes in name, birthday, ssn as its parameters.
   Return a new object with all of the information that you passed in.
 */
-
+// function  makePerson{
+//   name: ;
+//   birthday: ;
+//   ssn: ;
+// }
 //Code Here
 
 ////////// PROBLEM 7 //////////
